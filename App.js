@@ -6,6 +6,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text>Open up App.js to start working on your app!</Text>
+        <View style={styles.box} />
       </View>
     );
   }
@@ -17,5 +18,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  box: {
+    backgroundColor: 'blue',
+    width: '30%',
+    height: '30%',
   },
 });
